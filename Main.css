@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    background-color: rgb(15, 8, 19);
+    padding: 0;
+}
+
+
+
+/*///////////////// Set font //////////////*/
+
+@font-face{
+    font-family: 'roboto';
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+    font-style: normal;
+    font-weight: 120;
+}
+
+*{
+    font-family: roboto;
+}
+
+table{
+    border-spacing: 0;
+}
+
+td{
+    padding: 0;
+    margin: 0;
+}
+
+/*////////// Main container //////////*/
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #171a1b;
+}
+
+/*//////// Section one css //////////*/
+/* Make Navbar Responsive */
+
+.NavBar {
+  max-width: 600px;
+  display: grid;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+    .NavBar { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  
+/*Remove underline from <a>*/
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;
+    background-color: aliceblue;
+  }
+  
+a:active {
+    text-decoration: none;
+    background-color: aliceblue;
+  }
+
+/*////////// Section two css//////////*/
+/*Background image one responsive*/
+.responsive {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    background-size: cover; 
+  }
+
+
+/*/////////// Section three css ///////////*/
+.section-three{
+    height: 125px;
+    margin-left: 10px;
+}
+
+
+/*Button 'SHARE' css*/
+.button1 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 1px solid rgb(79, 165, 245);
+  font-weight: bolder;
+  }
+
+.button1:hover {
+    box-shadow: 0 5px 15px rgba(28, 64, 165, 0.4);
+
+  }
+
+/*/////////// Section four css /////////////*/
+.section-four {
+    max-width: 600px;
+    display: grid;
+    text-align: center;
+    background-color: #171a1b;
+    margin-top: 5px;
+    color: #ffffff;
+  }
+
+@media (min-width: 600px) {
+    .section-four { grid-template-columns: repeat(2, 1fr); }
+  }
+
+#pragraph{
+      margin-top: 0px;
+      text-align: left;
+      padding: 15px 20px 15px 20px;
+      margin-bottom: 4px;
+  }
+
+#section-four-h5{
+        margin-bottom: 0;
+        text-align: left;
+        padding: 10px 10px 5px 20px;
+}
+
+/* Button 'BOOK Now' css*/
+.button2 {
+    background-color: #171a1b;
+    border: none;
+    color:rgb(240, 236, 228);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(11, 46, 80);
+    font-weight: bolder;
+    }
+  
+.button2:hover {
+      box-shadow: 0 5px 15px rgba(28, 64, 165, 0.4); 
+    }
+
+/*Background image two css*/
+.responsive2 {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        background-size: cover; 
+      }
+
+
+/*///////////// Section five css /////////////*/
+.section-five{
+    background-color: white;
+    margin: 15px;
+}
+
+/*Icon css*/
+.icons {
+    max-width: 600px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+#icon{
+    text-align: start;
+    padding: 20px 10px;
+}
+
+#address{
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    text-align: center;
+    font-size: 11px;
+    margin: 10px 0px;
+}
+
+#last{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+
